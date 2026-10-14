@@ -68,4 +68,4 @@ y_pred_clusters = kmeans.fit_predict(X_train_scaled)
 print('Silhouette score:\n',silhouette_score(X_train_scaled,y_pred_clusters))
 
 
-''' by analysing the scores random forest classifier worked the best with an accuracy of 96%'''
+''' by analysing the scores support vector classifier worked the best with an accuracy of 98%'''
